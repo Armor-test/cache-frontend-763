@@ -1,0 +1,33 @@
+# CODEOWNERS file for cache-frontend-763
+# Global owners - will be requested for all PRs
+* @Armor-test/grp-ui @Armor-test/squad-reporting @Armor-test/squad-cache
+
+# Directory ownership
+/services/ @Armor-test/team-notifications @Armor-test/grp-reporting
+/deploy/ @Armor-test/squad-database @Armor-test/grp-payments @Armor-test/squad-apps
+/data/ @Armor-test/squad-cloud @Armor-test/team-core
+/api/ @Armor-test/dept-data @Armor-test/dept-automation
+/tests/ @Armor-test/grp-reporting @Armor-test/dept-test
+/tools/ @Armor-test/squad-frontend @Armor-test/squad-search
+/docs/ @Armor-test/dept-automation @Armor-test/dept-notifications @Armor-test/unit-design
+/utils/ @Armor-test/squad-api @Armor-test/grp-reporting @Armor-test/grp-storage
+/third_party/ @Armor-test/squad-product @Armor-test/dept-security
+/app/ @Armor-test/team-notifications @Armor-test/unit-devops @Armor-test/dept-release
+/dist/ @Armor-test/team-frontend @Armor-test/squad-frontend @Armor-test/team-logging
+
+# File type ownership
+*.toml @Armor-test/dept-release @Armor-test/squad-research
+*.ts @Armor-test/grp-reporting @Armor-test/team-reporting @Armor-test/unit-design
+*.swift @Armor-test/unit-cloud @Armor-test/grp-integration @Armor-test/team-core
+*.tsx @Armor-test/squad-frontend @Armor-test/squad-ux
+*.yml @Armor-test/unit-cloud @Armor-test/team-research
+*.cpp @Armor-test/unit-design @Armor-test/dept-security
+*.c @Armor-test/unit-devops @Armor-test/squad-product @Armor-test/unit-governance
+*.go @Armor-test/grp-storage @Armor-test/team-research @Armor-test/squad-tooling
+*.py @Armor-test/squad-ml @Armor-test/squad-payments
+*.jsx @Armor-test/team-frontend @Armor-test/dept-data @Armor-test/squad-api
+
+# Security and special files
+package.json @Armor-test/dependency-team @Armor-test/security
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+/src/**/security/ @Armor-test/security @Armor-test/compliance
